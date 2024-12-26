@@ -1,4 +1,4 @@
-from Character import Character
+from Characters.Character import Character
 
 if __name__ == "__main__":
     me = Character()
