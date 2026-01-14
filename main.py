@@ -1,4 +1,10 @@
-from Characters import *
+if __name__ == "__main__":
 
-print("Welcome to Tebadra!")
+    from Format import F, B
+    from Characters import *
+    from Armor import *
+
+    print(F.RED + "Welcome to Tebadra!" + F.RESET)
+    
+
 

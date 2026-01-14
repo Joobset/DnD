@@ -1,5 +1,5 @@
-import Character
+from .Character import Character
 
 class Mage(Character):
     def __init__(self):
-        self.name = "lee"
+        super().__init__("Lee", 20)
